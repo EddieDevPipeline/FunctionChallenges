@@ -1,6 +1,5 @@
 //Task 1
 function findLongestWord(str) {
-  // Check if str is indeed a string
   if (typeof str !== "string") {
     console.error("Provided argument is not a string:", str);
     return "";
